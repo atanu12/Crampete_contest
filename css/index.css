@@ -11,6 +11,7 @@ header{
 
 .pic{
     text-align: center;
+    margin-top: 2vh;
 }
 .row div .pic img{
     margin-left: 10%;
@@ -29,7 +30,7 @@ header{
 /* ===========  profile detail start =========== */
 
 .profile{
-    margin-top: 2%;
+    margin-top: 2vh;
     text-align: right;
     text-transform: uppercase;
     margin-left: 20%;
@@ -111,7 +112,7 @@ div .btn:hover{
 
 
 .project img{
-    height: 200px;
+    height: 240px;
     width: 100%;
     margin-top: 10px;
     margin-right: 10px;
