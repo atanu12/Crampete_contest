@@ -10,7 +10,6 @@ header{
 }
 
 .pic{
-    text-align: center;
     margin-top: 2vh;
 }
 .row div .pic img{
@@ -24,14 +23,11 @@ header{
 }
 
 
-
 /* ===== profile pic end======= */
 
 /* ===========  profile detail start =========== */
 
 .profile{
-    margin-top: 2vh;
-    text-align: right;
     text-transform: uppercase;
     margin-left: 20%;
     
@@ -49,6 +45,17 @@ div .btn:hover{
     background-color: cornsilk;
     transition: 0.4s;
     margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 576px) {
+	.pic, .profile {
+		text-align: center !important;
+	}
+	.row div .pic img, .profile {
+		margin-left: 0;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
 }
 
 
